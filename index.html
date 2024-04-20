@@ -1,0 +1,87 @@
+<!--
+     Author: Build Rise Shine with Nyros (BRS) 
+     Created: 2023
+     Library / Component: Graph
+     Description: Main page  for the app
+     (c) Copyright by BRS with Nyros. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Graph | Data Structure in JS</title>
+    <link rel="icon" href="assets/img/brs-logo.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="d-flex bg-gradient">
+        <div class="d-flex flex-grow-1">
+          <nav class="courseTitle">
+            <button class="navbar-brand border-0">
+              <img src="" alt="" />
+            </button>
+          </nav>
+          <div class="flex-grow-1">
+            <div class="ReactTitle ps-3 d-flex align-items-center">
+              <img src="assets/img/datastructure.png" alt="logo" />
+              <h3 class="mb-0">Data Structure - Graph in JS</h3>
+            </div>
+            <div class="d-flex ps-3 align-items-center">
+              <div class="flex-grow-1">
+                <h4>Graph</h4>
+                <p class="pb-0 mb-0 text-start">
+                  Purpose: Implement Graph Data Structure
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main role="main" class="container" style="margin-bottom: 100px">
+      <h5 class="text-start">Implementation of Graph Data Structure</h5>
+      <p class="text-start">
+        A graph is a fundamental data structure in computer science that consists of a collection of nodes (or vertices) and edges connecting these nodes. It's a way to represent relationships between different entities.
+      </p>
+      <p class="text-start">
+        To implement a graph data structure in JavaScript, you can use an adjacency list or an adjacency matrix. An adjacency list is a list of lists, where each list represents the neighbors of a vertex. An adjacency matrix is a square matrix, where each cell represents the weight of the edge between two vertices.
+      </p>
+    </main>
+
+    <footer class="footer footer-dark">
+      <div class="d-flex justify-content-between px-5">
+        <div>ALL RIGHTS RESERVED  INDIA</div>
+        <div>
+          <button
+            onclick="setTheme('#1A4B84')"
+            class="theme-switch theme-switch-chathams_blue"
+          ></button>
+          <button
+            onclick="setTheme('#991E14')"
+            class="theme-switch theme-switch-tamarillo"
+          ></button>
+          <button
+            onclick="setTheme('#FEAD06')"
+            class="theme-switch theme-switch-yellow_sea"
+          ></button>
+        </div>
+        <div>
+          <img src="" alt="" />
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/graph.js" defer></script>
+    <script src="assets/js/theme.js" defer></script>
+  </body>
+</html>
